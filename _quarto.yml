@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Enzyme Structure Analysis Dashboard"
+  navbar:
+    left:
+      - text: "Introduction"
+        href: index.qmd
+      - text: "Initial Structure"
+        href: structure_review.qmd
+      - text: "Scratch"
+        href: scratch.qmd
+  # sidebar:
+  #   style: "docked"
+  #   contents:  
+  #     - index.qmd
+  #     - structure_review.qmd
+  #     - scratch.qmd
+
+format:
+  html:
+    theme: sandstone
+    toc: true
+    code-fold: true
