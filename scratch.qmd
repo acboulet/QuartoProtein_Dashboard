@@ -1,0 +1,52 @@
+# Scratch pad of testing
+
+## Examples
+
+Place holder
+
+#### Third-level holder
+
+What's this look like?
+
+:::{.card title="Introduction Card"}
+Placeholder.
+
+Navigate through the different steps using the tabs available at the top of the dashboard.
+:::
+
+:::{#nte-example .callout-note title="Note"}
+Note text
+:::
+
+:::{.callout-warning title="Warning"}
+Warning text
+:::
+
+:::{.callout-important title="Important"}
+Important text
+:::
+
+:::{.callout-tip title="Tip"}
+## Tip with a header
+
+Tip text
+:::
+
+:::{.callout-caution title="Caution" collapse="true"}
+
+Collapsed Important note
+:::
+
+See @nte-example  
+
+## Tables
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: My Caption {#tbl-letters}
+
+See @tbl-letters.
