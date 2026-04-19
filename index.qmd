@@ -8,9 +8,19 @@ One key nutrient in chemical fertilizers is phosphorus, which is essential for p
 
 In nature, phytases are enzymes that can break down phytic acid, releasing the phosphorus and making it available for plants. These enzymes are released by the complex microbial communities in the soil, including certain bacteria, fungi, and plants, and they play a crucial role in improving phosphorus availability. However, microbes that produce phytases often do not survive modern day agricultural conditions.
 
-::: {.callout-tip title="Enyme Engineering That Combines Evolution, Biology, and AI"}
+::: {.callout-important title="The Problem with Modern Agriculture"}
+Natural phytases have evolved to function in specific micro-environments created by their microbial communities.
+
+Modern day agricultural practices have disrupted the natural microbial communities that produce phytases, leading to reduced enzyme activity in the soil. 
+
+By engineering phytases to be more robust and effective under the harsh conditions of agricultural soils, we can enhance nutrient availability
+:::
+
+
 This project focuses on presenting a modern approach to enzyme engineering that combines evolutionary biology, protein structure, and artificial intelligence to design phytases that can function effectively in the challenging conditions of agricultural soils. 
 
+
+::: {.callout-tip title="The Goal"}
 By enhancing the stability and activity of phytases, we can improve phosphorus availability for plants, reduce reliance on chemical fertilizers, and promote more sustainable agricultural practices.
 :::
 
@@ -41,43 +51,26 @@ For decades, enzyme engineering has relied on **directed evolution**; iterativel
 
 Rather than replacing evolution entirely, modern enzyme engineering can benefit from **leveraging evolutionary information computationally** while combining it with structural insights and artificial intelligence.
 
-::: {.callout-tip}
-## The Key Shift
-Instead of choosing between random exploration (slow, expensive) or purely computational approaches (limited by assumptions), we combine all three: learn from nature's evolutionary solutions, apply structural physics to understand *why* changes work, and use AI to rapidly explore possibilities.
-:::
-
 This integrated framework provides a path to leverage evolutionary information to guide the design process—making enzyme engineering faster, smarter, and more reliable.
 
+::: {.callout-note}
+## The Strategy
+Instead of choosing between random exploration (slow, expensive) or purely computational approaches (limited by assumptions), this project uses a combined approach. 
+
+1. Leverage nature's evolutionary solutions to limit the exploration space
+2. Review structural changes to rationalize and rank new designs.
+3. Use AI to rapidly predict new proteins that are likely to be stable and active.
+:::
 
 
 ## Integrated Framework for Enzyme Engineering
 
-::: {.callout-note}
-## Our Strategy
-We're applying the integrated approach—evolution + structure + AI—to design phytases that work better under harsh industrial conditions.
-:::
-
 This project explores using this integrated approach to engineer a phytase enzyme with improved stability and activity.
 
-1. Identify functionally critical residues by analyzing sequence conservation across phytase homologs to guide rational mutagenesis.
-2. Map the functional landscape by combining sequence conservation analysis with structural proximity to the substrate binding site.
-3. Fix conserved residues and use LigandMPNN to predict novel sequences that enhance stability and activity.
-4. Prioritize candidates by ranking variants on predicted stability, catalytic potential, and solubility, selecting top designs for structural validation.
-5. Predict the structure of top candidates using AlphaFold2.
-6. Confirm the structural validity to ensure correct fold, and that the active site is preserved.
-7. Evaluate function through molecular dynamics simulations to assess stability and substrate interactions, followed by experimental validation of top candidates.
-
-
-## Phytase Introduction
-
-Phytases are enzymes that process phytic acid, the principal storage form of phosphorus in plant seeds and grains. By breaking down this molecule, phytases liberate the essential phosphorus that would otherwise remain bound and inaccessible.
-
-Naturally occurring phytases are found in a variety of organisms, including bacteria, fungi, and plants. They play a crucial role in agriculture and animal nutrition by improving phosphorus availability in feed, reducing the need for inorganic phosphate fertilizers, and minimizing environmental phosphorus pollution.
-
-Engineering phytases to enhance their stability and activity can lead to more efficient phosphorus utilization, benefiting both agriculture and the environment.
-
-::: {.callout-important}
-## The Engineering Goal
-Soil is not a laboratory. Phytases need to survive in harsh conditions—lower temperatures and higher pH than where natural variants evolved. By engineering more robust phytases, we unlock nutrient availability where it matters most: in the soil ecosystem and throughout agricultural systems.
-:::
-
+1. **Identify functionally critical residues** by analyzing sequence conservation across phytase homologs to guide rational mutagenesis.
+2. **Map the functional landscape** by combining sequence conservation analysis with structural proximity to the substrate binding site.
+3. **Fix conserved residues** and use LigandMPNN to predict novel sequences that enhance stability and activity.
+4. **Prioritize candidates** by ranking variants on predicted stability, catalytic potential, and solubility, selecting top designs for structural validation.
+5. **Predict the structure** of top candidates using AlphaFold2.
+6. **Confirm the structural validity** to ensure correct fold, and that the active site is preserved.
+7. **Evaluate function** through molecular dynamics simulations to assess stability and substrate interactions, followed by experimental validation of top candidates.
