@@ -21,9 +21,6 @@ ENV/
 *.swp
 *.swo
 
-# Old build artifacts
-_site/
-
 # Node modules (if using npm)
 node_modules/
 
