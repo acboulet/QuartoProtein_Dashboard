@@ -11,13 +11,15 @@ The challenge is to take these natural enzymes and expand their capabilities: im
 For decades, enzyme engineering has relied on **directed evolution**; iteratively cycling through mutagenesis and screening for improved variants. This approach mimics natural selection in the lab, but faces fundamental limitations.
 
 **1. Local Optima and Sequence Space Constraints**
-- Directed evolution explores sequence space through random mutations, exploring a tiny neighborhood around the starting protein
-- The process is often constrained by the local fitness landscape, making it difficult to reach global optima in the vast space of possible sequences
-- Each round of screening and selection is labor-intensive and time-consuming
+
+* Directed evolution explores sequence space through random mutations, exploring a tiny neighborhood around the starting protein
+* The process is often constrained by the local fitness landscape, making it difficult to reach global optima in the vast space of possible sequences
+* Each round of screening and selection is labor-intensive and time-consuming
 
 **2. Missing Dynamic Information**
-- Traditional structural analysis relies on static crystal structures that fail to capture the dynamic nature of enzymes. 
-- This motion is essential for function, as enzymes often undergo conformational changes during catalysis.
+
+* Traditional structural analysis relies on static crystal structures that fail to capture the dynamic nature of enzymes. 
+* This motion is essential for function, as enzymes often undergo conformational changes during catalysis.
 
 ### Modern Approaches: Integrating Evolution, Structure, and AI
 
@@ -30,6 +32,7 @@ Rather than the binary choice between random exploration, this integrated framew
 ## Integrated Framework for Enzyme Engineering
 
 This project explores using this integrated approach to engineer a phytase enzyme with improved stability and activity.
+
 1. Identify functionally critical residues by analyzing sequence conservation across phytase homologs to guide rational mutagenesis.
 2. Map the functional landscape by combining sequence conservation analysis with structural proximity to the substrate binding site.
 3. Fix conserved residues and use LigandMPNN to predict novel sequences that enhance stability and activity.
