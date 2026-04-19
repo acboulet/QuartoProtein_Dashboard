@@ -119,11 +119,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-the-limit-behind-protein-design" id="toc-what-is-the-limit-behind-protein-design" class="nav-link active" data-scroll-target="#what-is-the-limit-behind-protein-design">What is the limit behind protein design?</a>
+  <li><a href="#leveraging-evolution-structure-and-ai-to-engineer-enzymes" id="toc-leveraging-evolution-structure-and-ai-to-engineer-enzymes" class="nav-link active" data-scroll-target="#leveraging-evolution-structure-and-ai-to-engineer-enzymes">Leveraging Evolution, Structure, and AI to Engineer Enzymes</a>
   <ul class="collapse">
-  <li><a href="#design" id="toc-design" class="nav-link" data-scroll-target="#design">Design</a></li>
+  <li><a href="#the-challenge-engineering-enzymes-for-performance-and-stability" id="toc-the-challenge-engineering-enzymes-for-performance-and-stability" class="nav-link" data-scroll-target="#the-challenge-engineering-enzymes-for-performance-and-stability">The Challenge: Engineering Enzymes for Performance and Stability</a>
+  <ul class="collapse">
+  <li><a href="#the-limitations-of-traditional-directed-evolution" id="toc-the-limitations-of-traditional-directed-evolution" class="nav-link" data-scroll-target="#the-limitations-of-traditional-directed-evolution">The Limitations of Traditional Directed Evolution</a></li>
+  <li><a href="#modern-approaches-integrating-evolution-structure-and-ai" id="toc-modern-approaches-integrating-evolution-structure-and-ai" class="nav-link" data-scroll-target="#modern-approaches-integrating-evolution-structure-and-ai">Modern Approaches: Integrating Evolution, Structure, and AI</a></li>
+  </ul></li>
+  <li><a href="#integrated-framework-for-enzyme-engineering" id="toc-integrated-framework-for-enzyme-engineering" class="nav-link" data-scroll-target="#integrated-framework-for-enzyme-engineering">Integrated Framework for Enzyme Engineering</a></li>
   <li><a href="#phytase-introduction" id="toc-phytase-introduction" class="nav-link" data-scroll-target="#phytase-introduction">Phytase Introduction</a></li>
-  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -134,24 +138,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="what-is-the-limit-behind-protein-design" class="level1">
-<h1>What is the limit behind protein design?</h1>
-<p>Place holder</p>
-<section id="design" class="level2">
-<h2 class="anchored" data-anchor-id="design">Design</h2>
-<p>Place holder</p>
+<section id="leveraging-evolution-structure-and-ai-to-engineer-enzymes" class="level1">
+<h1>Leveraging Evolution, Structure, and AI to Engineer Enzymes</h1>
+<section id="the-challenge-engineering-enzymes-for-performance-and-stability" class="level2">
+<h2 class="anchored" data-anchor-id="the-challenge-engineering-enzymes-for-performance-and-stability">The Challenge: Engineering Enzymes for Performance and Stability</h2>
+<p>Natural evolution has refined enzymeatic catalysis over billions of years. These reactions are effcient and specific, but they are not necessarily optimized for the conditions or substrates we need in industrial applications.</p>
+<p>The challenge is to take these natural enzymes and expand their capabilities: improving their stability at different temperatures and pH levels, and enhancing their catalytic efficiency for variants of their natural substrate.</p>
+<section id="the-limitations-of-traditional-directed-evolution" class="level3">
+<h3 class="anchored" data-anchor-id="the-limitations-of-traditional-directed-evolution">The Limitations of Traditional Directed Evolution</h3>
+<p>For decades, enzyme engineering has relied on <strong>directed evolution</strong>; iteratively cycling through mutagenesis and screening for improved variants. This approach mimics natural selection in the lab, but faces fundamental limitations.</p>
+<p><strong>1. Local Optima and Sequence Space Constraints</strong> - Directed evolution explores sequence space through random mutations, exploring a tiny neighborhood around the starting protein - The process is often constrained by the local fitness landscape, making it difficult to reach global optima in the vast space of possible sequences - Each round of screening and selection is labor-intensive and time-consuming</p>
+<p><strong>2. Missing Dynamic Information</strong> - Traditional structural analysis relies on static crystal structures that fail to capture the dynamic nature of enzymes. - This motion is essential for function, as enzymes often undergo conformational changes during catalysis.</p>
+</section>
+<section id="modern-approaches-integrating-evolution-structure-and-ai" class="level3">
+<h3 class="anchored" data-anchor-id="modern-approaches-integrating-evolution-structure-and-ai">Modern Approaches: Integrating Evolution, Structure, and AI</h3>
+<p>Rather than replacing evolution entirely, modern enzyme engineering can benefit from <strong>leveraging evolutionary information computationally</strong> while combining it with structural insights and artificial intelligence.</p>
+<p>Rather than the binary choice between random exploration, this integrated framework provides a path to leverage evolutionary information to guide mutagenesis.</p>
+</section>
+</section>
+<section id="integrated-framework-for-enzyme-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="integrated-framework-for-enzyme-engineering">Integrated Framework for Enzyme Engineering</h2>
+<p>This project explores using this integrated approach to engineer a phytase enzyme with improved stability and activity. 1. Identify functionally critical residues by analyzing sequence conservation across phytase homologs to guide rational mutagenesis. 2. Map the functional landscape by combining sequence conservation analysis with structural proximity to the substrate binding site. 3. Fix conserved residues and use LigandMPNN to predict novel sequences that enhance stability and activity. 4. Prioritize candidates by ranking variants on predicted stability, catalytic potential, and solubility, selecting top designs for structural validation. 5. Predict the structure of top candidates using AlphaFold2. 6. Confirm the structural validity to ensure correct fold, and that the active site is preserved. 7. Evaluate function through molecular dynamics simulations to assess stability and substrate interactions, followed by experimental validation of top candidates.</p>
 </section>
 <section id="phytase-introduction" class="level2">
 <h2 class="anchored" data-anchor-id="phytase-introduction">Phytase Introduction</h2>
-<p>Place holder</p>
-<section id="third-level-holder" class="level4">
-<h4 class="anchored" data-anchor-id="third-level-holder">Third-level holder</h4>
-<p>What’s this look like?</p>
-</section>
-</section>
-<section id="process" class="level2">
-<h2 class="anchored" data-anchor-id="process">Process</h2>
-<p>Place holder</p>
+<p>Phytases are enzymes that process phytic acid, the principal storage form of phosphorus in plant seeds and grains. By breaking down this molecule, phytases liberate the essential phosphorus that would otherwise remain bound and inaccessible.</p>
+<p>Naturally occurring phytases are found in a variety of organisms, including bacteria, fungi, and plants. They play a crucial role in agriculture and animal nutrition by improving phosphorus availability in feed, reducing the need for inorganic phosphate fertilizers, and minimizing environmental phosphorus pollution.</p>
+<p>Engineering phytases to enhance their stability and activity can lead to more efficient phosphorus utilization, benefiting both agriculture and the environment. The goal of this project is to leverage evolutionary information to guide phytases engineering in order to function at lower temperatures and a higher pH, common conditions in soil.</p>
 
 
 </section>
