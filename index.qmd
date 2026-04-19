@@ -1,8 +1,24 @@
 # Leveraging Evolution, Structure, and AI to Engineer Enzymes 
 
+## Why This Matters
+
+Sustainable agriculture is critical for feeding a growing global population while minimizing environmental impact. Our current systems rely heavily on chemical fertilizers, which are energy-intensive to produce and can lead to pollution. Enzymes offer a promising alternative by enabling more efficient nutrient utilization.
+
+One key nutrient in chemical fertilizers is phosphorus, which is essential for plant growth. However, much of the phosphorus in soil is locked in a form called phytic acid, making it unavailable to plants. 
+
+In nature, phytases are enzymes that can break down phytic acid, releasing the phosphorus and making it available for plants. These enzymes are released by the complex microbial communities in the soil, including certain bacteria, fungi, and plants, and they play a crucial role in improving phosphorus availability. However, microbes that produce phytases often do not survive modern day agricultural conditions.
+
+::: {.callout-tip title="Enyme Engineering That Combines Evolution, Biology, and AI"}
+This project focuses on presenting a modern approach to enzyme engineering that combines evolutionary biology, protein structure, and artificial intelligence to design phytases that can function effectively in the challenging conditions of agricultural soils. 
+
+By enhancing the stability and activity of phytases, we can improve phosphorus availability for plants, reduce reliance on chemical fertilizers, and promote more sustainable agricultural practices.
+:::
+
+
+
 ## The Challenge: Engineering Enzymes for Performance and Stability
 
-Natural evolution has refined enzymeatic catalysis over billions of years. These reactions are effcient and specific, but they are not necessarily optimized for the conditions or substrates we need in industrial applications. 
+Natural evolution has refined enymatic catalysis over billions of years. These reactions are efficient and specific, but they are not necessarily optimized for the conditions or substrates we need in industrial applications. 
 
 The challenge is to take these natural enzymes and expand their capabilities: improving their stability at different temperatures and pH levels, and enhancing their catalytic efficiency for variants of their natural substrate.
 
@@ -25,11 +41,21 @@ For decades, enzyme engineering has relied on **directed evolution**; iterativel
 
 Rather than replacing evolution entirely, modern enzyme engineering can benefit from **leveraging evolutionary information computationally** while combining it with structural insights and artificial intelligence.
 
-Rather than the binary choice between random exploration, this integrated framework provides a path to leverage evolutionary information to guide mutagenesis.
+::: {.callout-tip}
+## The Key Shift
+Instead of choosing between random exploration (slow, expensive) or purely computational approaches (limited by assumptions), we combine all three: learn from nature's evolutionary solutions, apply structural physics to understand *why* changes work, and use AI to rapidly explore possibilities.
+:::
+
+This integrated framework provides a path to leverage evolutionary information to guide the design process—making enzyme engineering faster, smarter, and more reliable.
 
 
 
 ## Integrated Framework for Enzyme Engineering
+
+::: {.callout-note}
+## Our Strategy
+We're applying the integrated approach—evolution + structure + AI—to design phytases that work better under harsh industrial conditions.
+:::
 
 This project explores using this integrated approach to engineer a phytase enzyme with improved stability and activity.
 
@@ -48,5 +74,10 @@ Phytases are enzymes that process phytic acid, the principal storage form of pho
 
 Naturally occurring phytases are found in a variety of organisms, including bacteria, fungi, and plants. They play a crucial role in agriculture and animal nutrition by improving phosphorus availability in feed, reducing the need for inorganic phosphate fertilizers, and minimizing environmental phosphorus pollution.
 
-Engineering phytases to enhance their stability and activity can lead to more efficient phosphorus utilization, benefiting both agriculture and the environment. The goal of this project is to leverage evolutionary information to guide phytases engineering in order to function at lower temperatures and a higher pH, common conditions in soil.
+Engineering phytases to enhance their stability and activity can lead to more efficient phosphorus utilization, benefiting both agriculture and the environment.
+
+::: {.callout-important}
+## The Engineering Goal
+Soil is not a laboratory. Phytases need to survive in harsh conditions—lower temperatures and higher pH than where natural variants evolved. By engineering more robust phytases, we unlock nutrient availability where it matters most: in the soil ecosystem and throughout agricultural systems.
+:::
 
