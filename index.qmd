@@ -12,12 +12,10 @@ In nature, phytases are enzymes that can break down phytic acid, releasing the p
 Natural phytases have evolved to function in specific micro-environments created by their microbial communities.
 
 Modern day agricultural practices have disrupted the natural microbial communities that produce phytases, leading to reduced enzyme activity in the soil. 
-
-By engineering phytases to be more robust and effective under the harsh conditions of agricultural soils, we can enhance nutrient availability
 :::
 
 
-This project focuses on presenting a modern approach to enzyme engineering that combines evolutionary biology, protein structure, and artificial intelligence to design phytases that can function effectively in the challenging conditions of agricultural soils. 
+This project focuses on presenting a modern approach to enzyme engineering that combines evolutionary biology, protein structure, and artificial intelligence to design phytases that can function effectively in the challenging conditions. 
 
 
 ::: {.callout-tip title="The Goal"}
@@ -30,7 +28,7 @@ By enhancing the stability and activity of phytases, we can improve phosphorus a
 
 Natural evolution has refined enymatic catalysis over billions of years. These reactions are efficient and specific, but they are not necessarily optimized for the conditions or substrates we need in industrial applications. 
 
-The challenge is to take these natural enzymes and expand their capabilities: improving their stability at different temperatures and pH levels, and enhancing their catalytic efficiency for variants of their natural substrate.
+The challenge is to take these natural enzymes and expand their capabilities: improving their stability, and enhancing their catalytic efficiency.
 
 ### The Limitations of Traditional Directed Evolution
 
@@ -59,7 +57,7 @@ Instead of choosing between random exploration (slow, expensive) or purely compu
 
 1. Leverage nature's evolutionary solutions to limit the exploration space
 2. Review structural changes to rationalize and rank new designs.
-3. Use AI to rapidly predict new proteins that are likely to be stable and active.
+3. Use AI to rapidly predict new proteins that are likely to be stable and functional.
 :::
 
 
